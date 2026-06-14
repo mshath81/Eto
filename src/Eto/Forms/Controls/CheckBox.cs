@@ -18,7 +18,7 @@ namespace Eto.Forms;
 [Handler(typeof(CheckBox.IHandler))]
 public class CheckBox : TextControl, IMnemonicControl
 {
-	new IHandler Handler { get { return (IHandler)base.Handler; } }
+	new IHandler Handler { get { return (IHandler)base.Handler } }
 
 	/// <summary>
 	/// Occurs when the <see cref="Checked"/> property is changed by the user.
